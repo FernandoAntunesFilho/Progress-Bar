@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt/BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ProgressBarStyle.css">
+    <script src="ProgressBarBack.js"></script>
+    <title>Progress Bar</title>
+</head>
+<body>
+    
+    <div id="principal">
+        <input type="text" name="cpf" id="cpf" maxlength="14" onkeyup="validaDigitos(this.value)">
+        <div id="progressBar">
+            <progress id="progress" value=0 max="14"> </progress>
+            <p id="labelContador">0/14</p>
+        </div>
+    </div>
+
+</body>
+</html>
