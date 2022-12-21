@@ -1,0 +1,32 @@
+
+#principal {    
+    display: flex;
+    flex-direction: column;
+    margin: 19% auto;
+    width: 50%;
+}
+
+#cpf {
+    width: 20%;
+    text-align: center;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+#progressBar {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#progress{
+    align-self: center;
+    height: 3px;
+}
+
+#labelContador{
+    margin-top: 0px;
+    align-self: flex-end;
+    font-family: 'Courier New', Courier, monospace;
+}
